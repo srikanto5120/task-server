@@ -1,0 +1,28 @@
+{
+  "name": "assignment-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": " node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikanto5120/niche-yahama-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srikanto5120/niche-yahama-server/issues"
+  },
+  "homepage": "https://github.com/srikanto5120/niche-yahama-server#readme",
+  "description": ""
+}
