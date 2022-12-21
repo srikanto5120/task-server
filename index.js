@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000 ",
+    origin: " https://taupe-macaron-07b796.netlify.app ",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
@@ -54,7 +54,7 @@ async function run() {
     ///update data
     app.put("/sectors/:id", async (req, res) => {
       const id = req.params.id;
-      console.log(id);
+
       const updatedSector = req.body;
       const filter = { _id: ObjectId(id) };
       const options = { upset: true };
