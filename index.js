@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
   cors({
-    origin: " https://taupe-macaron-07b796.netlify.app ",
+    origin: "https://taupe-macaron-07b796.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
